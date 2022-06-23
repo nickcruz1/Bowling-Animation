@@ -1,0 +1,19 @@
+body {
+  background-color: lightgray;
+}
+
+.lane {
+  display: flex;
+  justify-content: center;
+  background-color: #e5a06c;
+  width: 100px;
+  margin: auto;
+  color: black;
+  height: 55vh;
+  font-size: 28px;
+  border: 1px solid black;
+}
+
+.pins {
+  color: white;
+}/*# sourceMappingURL=index.css.map */
