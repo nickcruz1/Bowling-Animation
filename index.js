@@ -20,3 +20,17 @@ function movePins() {
      pin2.style.transform = "rotate(360deg)";
      
    }
+
+   // Reset Pins Function 
+function resetPins() {
+    let ball = document.getElementById("bowlingBall");
+    ball.style.transition = "";
+    ball.style.transform = "";
+    
+   let getPins = document.getElementsByClassName("pins");
+    for(let i = 0; i < getPins.length; i++) {
+      getPins[i].style.transform = "";
+   getPins[i].style.transition = "";
+    }
+    
+  }
